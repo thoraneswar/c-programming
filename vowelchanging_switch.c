@@ -23,10 +23,6 @@ int main() {
        break;
       default:
        printf ("it is a consonant");
-       
-
-
-
     }
     return 0;
 }
