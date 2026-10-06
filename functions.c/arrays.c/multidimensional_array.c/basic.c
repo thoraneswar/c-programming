@@ -2,7 +2,7 @@
 
 int main() {
     int i,j,n,m;
-   scanf("%d %d",&n,&m);
+   scanf("%d %d",&n,&m);//n and m should be declared before using mat
     int mat[n][m];
      
     for ( i = 0; i <n; i++)
@@ -18,7 +18,7 @@ int main() {
     {
         for( j = 0; j <m; j++)
         {
-           printf("%d",mat[i][j]);
+           printf("%d",mat[j][i]);//transpose
         }
         printf ("\n");
     }
