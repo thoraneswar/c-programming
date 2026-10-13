@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int num[5],n,count=0;
+    int num[5],n,count=0,i;
      for (int i = 0; i < 5; i++)
      {
         scanf ("%d",&num[i]);
@@ -15,6 +15,6 @@ int main() {
            count+=1;
         } 
      }
-       printf ("the no of times %d repeated is %d",n,count);
+       printf ("the no of times %d repeated is %d ",n,count);
     return 0;
 }
