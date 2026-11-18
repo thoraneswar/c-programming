@@ -4,7 +4,7 @@ int main() {
     int arr[]={12,11,13,5,6};
     int n=5;
     int i,key,j;
-    for ( i = 0; i <n; i++)
+    for ( i = 1; i <n; i++)
     {
         key=arr[i];
         j=i-1;
